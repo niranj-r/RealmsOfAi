@@ -317,31 +317,31 @@ function Logo() {
 
 function Home() {
   return (
-    <div className="[grid-area:1_/_1] bg-[#f6f0ff] content-stretch flex items-center justify-center ml-0 mt-[0.01px] overflow-clip px-[9.792px] py-[2.938px] relative rounded-[30.354px] w-[81.271px]" data-name="Home">
+    <button className="[grid-area:1_/_1] bg-[#f6f0ff] content-stretch flex items-center justify-center ml-0 mt-[0.01px] overflow-clip px-[9.792px] py-[2.938px] relative rounded-[30.354px] w-[81.271px] cursor-pointer hover:opacity-80 transition-opacity border-none" data-name="Home">
       <div className="flex flex-col font-['Gilroy-Regular:☞',sans-serif] h-[32.294px] justify-center leading-[0] not-italic relative shrink-0 text-[#2a0759] text-[17px] text-center tracking-[-0.34px] w-[121.515px]">
         <p className="leading-[0.91]">Home</p>
       </div>
-    </div>
+    </button>
   );
 }
 
 function About() {
   return (
-    <div className="[grid-area:1_/_1] content-stretch flex items-center justify-center ml-[120.27px] mt-[0.01px] overflow-clip px-[9.792px] py-[2.938px] relative rounded-[30.354px] w-[84.208px]" data-name="About">
+    <button className="[grid-area:1_/_1] content-stretch flex items-center justify-center ml-[120.27px] mt-[0.01px] overflow-clip px-[9.792px] py-[2.938px] relative rounded-[30.354px] w-[84.208px] cursor-pointer hover:opacity-80 transition-opacity border-none bg-transparent" data-name="About">
       <div className="flex flex-col font-['Gilroy-Regular:☞',sans-serif] h-[32.294px] justify-center leading-[0] not-italic relative shrink-0 text-[#2a0759] text-[17px] text-center tracking-[-0.34px] w-[121.515px]">
         <p className="leading-[0.91]">About</p>
       </div>
-    </div>
+    </button>
   );
 }
 
 function Events() {
   return (
-    <div className="[grid-area:1_/_1] content-stretch flex h-[38.188px] items-center justify-center ml-[243.48px] mt-0 overflow-clip px-[9.792px] py-[2.938px] relative rounded-[30.354px] w-[90.083px]" data-name="Events">
+    <button className="[grid-area:1_/_1] content-stretch flex h-[38.188px] items-center justify-center ml-[243.48px] mt-0 overflow-clip px-[9.792px] py-[2.938px] relative rounded-[30.354px] w-[90.083px] cursor-pointer hover:opacity-80 transition-opacity border-none bg-transparent" data-name="Events">
       <div className="flex flex-col font-['Gilroy-Regular:☞',sans-serif] h-[32.294px] justify-center leading-[0] not-italic relative shrink-0 text-[#2a0759] text-[17px] text-center tracking-[-0.34px] w-[121.515px]">
         <p className="leading-[0.91]">Events</p>
       </div>
-    </div>
+    </button>
   );
 }
 
@@ -357,11 +357,11 @@ function Group5() {
 
 function RegisterNow() {
   return (
-    <div className="bg-[#2a0759] content-stretch flex items-center justify-center overflow-clip px-[20px] py-[2.938px] relative rounded-[30.354px] shrink-0" data-name="Register Now">
+    <button className="bg-[#2a0759] content-stretch flex items-center justify-center overflow-clip px-[20px] py-[2.938px] relative rounded-[30.354px] shrink-0 cursor-pointer hover:scale-105 transition-transform border-none" data-name="Register Now">
       <div className="flex flex-col font-['Gilroy-Medium:☞',sans-serif] h-[32.294px] justify-center leading-[0] not-italic relative shrink-0 text-[19.583px] text-center text-white tracking-[-0.3917px] w-[121.515px]">
         <p className="leading-[0.91]">Register Now</p>
       </div>
-    </div>
+    </button>
   );
 }
 
