@@ -1239,7 +1239,7 @@ function Group5() {
         </svg>
       </div>
       <Frame />
-      <div className="absolute flex flex-col font-['Poppins:Regular',sans-serif] h-[54.852px] justify-center leading-[0] left-[calc(50%-171px)] not-italic text-[#2a0759] text-[49.992px] top-[calc(50%+10.7px)] translate-y-[-50%] w-[343px]">
+      <div className="absolute flex flex-col font-['Poppins:Regular',sans-serif] h-[54.852px] justify-center leading-[0] left-1/2 translate-x-[-50%] not-italic text-[#2a0759] text-[49.992px] top-[calc(50%+10.7px)] translate-y-[-50%] w-auto">
         <CountdownTimer className="leading-[normal]" targetDate="2026-02-14T00:00:00" />
       </div>
     </div>

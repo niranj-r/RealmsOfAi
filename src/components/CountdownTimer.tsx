@@ -39,7 +39,7 @@ const CountdownTimer = ({ className = "leading-[normal]", targetDate = "2026-02-
     }, [targetDate]);
 
     return (
-        <p className={className}>
+        <p className={`${className} whitespace-nowrap`} style={{ whiteSpace: 'nowrap' }}>
             {timeLeft.days} : {timeLeft.hours} : {timeLeft.minutes} : {timeLeft.seconds}
         </p>
     );
